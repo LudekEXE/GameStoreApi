@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Minecraft",
+    "genre": "Kids and Family",
+    "price": 19.99,
+    "releaseDate": "0001-01-01"
+  },
+  {
+    "id": 2,
+    "name": "Street Figher II",
+    "genre": "Fighting",
+    "price": 9.99,
+    "releaseDate": "1992-07-15"
+  },
+  {
+    "id": 3,
+    "name": "Street Figher II Turbo",
+    "genre": "Fighting",
+    "price": 29.99,
+    "releaseDate": "1991-02-01"
+  }
+]

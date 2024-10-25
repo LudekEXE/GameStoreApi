@@ -1,0 +1,642 @@
+﻿GET http://localhost:5021/genres
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-25T152440.200.json
+
+###
+
+GET http://localhost:5021/games
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-25T141813.200.json
+
+###
+
+DELETE http://localhost:5021/games/4
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:5021/games
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-25T141754.200.json
+
+###
+
+POST http://localhost:5021/games
+Content-Type: application/json
+Content-Length: 96
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Street Figher II",
+  "genreId": 1,
+  "price": 9.99,
+  "releaseDate": "1992-07-15"
+}
+
+<> 2024-10-25T141749.201.json
+
+###
+
+GET http://localhost:5021/games/3
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-25T140907.200.json
+
+###
+
+GET http://localhost:5021/games
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-25T140830.200.json
+
+###
+
+GET http://localhost:5021/games/3
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-25T133321.200.json
+
+###
+
+PUT http://localhost:5021/games/3
+Content-Type: application/json
+Content-Length: 103
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Street Figher II Turbo",
+  "genreId": 1,
+  "price": 29.99,
+  "releaseDate": "1991-02-01"
+}
+
+###
+
+PUT http://localhost:5021/games/3
+Content-Type: application/json
+Content-Length: 109
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Street Figher II Turbo",
+  "genre": "Fighing",
+  "price": 29.99,
+  "releaseDate": "1991-02-01"
+}
+
+<> 2024-10-25T133239.500.txt
+
+###
+
+GET http://localhost:5021/games/1
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-25T124026.200.json
+
+###
+
+POST http://localhost:5021/games
+Content-Type: application/json
+Content-Length: 96
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Street Figher II",
+  "genreId": 1,
+  "price": 9.99,
+  "releaseDate": "1992-07-15"
+}
+
+<> 2024-10-25T115633.201.json
+
+###
+
+GET http://localhost:5021/players/5
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:5021/players
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-25T111341.200.json
+
+###
+
+POST http://localhost:5021/players
+Content-Type: application/json
+Content-Length: 86
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email" : "emial6@gmail.com",
+  "nick" : "Nickname5",
+  "password" : "sdhiuashd"
+}
+
+<> 2024-10-25T111324.201.json
+
+###
+
+POST http://localhost:5021/players
+Content-Type: application/json
+Content-Length: 85
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email" : "emial6@gmail.com",
+  "nick" : "Nickname5"
+  "password" : "sdhiuashd"
+}
+
+<> 2024-10-25T111320.400.txt
+
+###
+
+POST http://localhost:5021/players
+Content-Type: application/json
+Content-Length: 58
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email" : "emial6@gmail.com",
+  "nick" : "Nickname5"
+}
+
+<> 2024-10-25T091204.201.json
+
+###
+
+POST http://localhost:5021/players
+Content-Type: application/json
+Content-Length: 58
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email" : "emial6@gmail.com",
+  "nick" : "Nickname5"
+}
+
+<> 2024-10-24T130447.201.json
+
+###
+
+DELETE http://localhost:5021/players/3
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:5021/players/2
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-24T130432.200.json
+
+###
+
+GET http://localhost:5021/players
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-24T130422.200.json
+
+###
+
+GET http://localhost:5021/players
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-24T124338.200.json
+
+###
+
+DELETE http://localhost:5021/players/3
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:5021/players
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-24T124328.200.json
+
+###
+
+GET http://localhost:5021/players/2
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+DELETE http://localhost:5021/players/2
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+DELETE http://localhost:5021/players/2
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST http://localhost:5021/players
+Content-Type: application/json
+Content-Length: 58
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email" : "emial5@gmail.com",
+  "nick" : "Nickname4"
+}
+
+<> 2024-10-24T124204.201.json
+
+###
+
+POST http://localhost:5021/players
+Content-Type: application/json
+Content-Length: 58
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email" : "emial4@gmail.com",
+  "nick" : "Nickname3"
+}
+
+<> 2024-10-24T124018.201.json
+
+###
+
+GET http://localhost:5021/players
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-24T124015.200.json
+
+###
+
+POST http://localhost:5021/players
+Content-Type: application/json
+Content-Length: 58
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email" : "emial4@gmail.com",
+  "nick" : "Nickname2"
+}
+
+<> 2024-10-24T113039.500.txt
+
+###
+
+GET http://localhost:5021/players
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-24T113018.200.json
+
+###
+
+POST http://localhost:5021/players
+Content-Type: application/json
+Content-Length: 58
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email" : "emial4@gmail.com",
+  "nick" : "Nickname2"
+}
+
+<> 2024-10-24T113015.500.txt
+
+###
+
+GET http://localhost:5021/players
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-24T113002.200.json
+
+###
+
+POST http://localhost:5021/players
+Content-Type: application/json
+Content-Length: 58
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email" : "emial4@gmail.com",
+  "nick" : "Nickname2"
+}
+
+<> 2024-10-24T112914.500.txt
+
+###
+
+POST http://localhost:5021/players
+Content-Type: application/json
+Content-Length: 58
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email" : "emial4@gmail.com",
+  "nick" : "Nickname2"
+}
+
+<> 2024-10-24T112207.500.txt
+
+###
+
+GET http://localhost:5021/players
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-24T111440.200.json
+
+###
+
+GET http://localhost:5021/games
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-24T111438.200.json
+
+###
+
+POST http://localhost:5021/games
+Content-Type: application/json
+Content-Length: 96
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Street Figher II",
+  "genreId": 1,
+  "price": 9.99,
+  "releaseDate": "1992-07-15"
+}
+
+<> 2024-10-24T111337.500.txt
+
+###
+
+GET http://localhost:5021/games
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-24T111333.500.txt
+
+###
+
+GET http://localhost:5021/games
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-24T111227.500.txt
+
+###
+
+GET http://localhost:5021/players
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-24T111217.500.txt
+
+###
+
+POST http://localhost:5021/games
+Content-Type: application/json
+Content-Length: 96
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Street Figher II",
+  "genreId": 1,
+  "price": 9.99,
+  "releaseDate": "1992-07-15"
+}
+
+<> 2024-10-23T131636.201.json
+
+###
+
+POST http://localhost:5021/games
+Content-Type: application/json
+Content-Length: 95
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Street Figher II",
+  "genreId": 1,
+  "price": 9.99,
+  "releaseDate": "1992-7-15"
+}
+
+<> 2024-10-23T131603.400.txt
+
+###
+
+POST http://localhost:5021/games
+Content-Type: application/json
+Content-Length: 96
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Street Figher II",
+  "genreId": 1,
+  "price": 19.99,
+  "releaseDate": "1992-7-15"
+}
+
+<> 2024-10-23T131548.400.txt
+
+###
+
+POST http://localhost:5021/games
+Content-Type: application/json
+Content-Length: 96
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Street Figher II",
+  "genreId": 1,
+  "price": 19.99,
+  "releaseDate": "1992-7-15"
+}
+
+<> 2024-10-23T131524.400.txt
+
+###
+
+POST http://localhost:5021/games
+Content-Type: application/json
+Content-Length: 96
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Street Figher II",
+  "genreId": 1,
+  "price": 19.99,
+  "releaseDate": "1992-7-15"
+}
+
+<> 2024-10-23T131459.400.txt
+
+###
+
+POST http://localhost:5021/games
+Content-Type: application/json
+Content-Length: 90
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Minecraft",
+  "genreId": 5,
+  "price": 19.99,
+  "releaseDate": "0001-01-01"
+}
+
+<> 2024-10-23T124320.201.json
+
+###
+
+POST http://localhost:5021/games
+Content-Type: application/json
+Content-Length: 88
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Minecraft",
+  "genre": 5,
+  "price": 19.99,
+  "releaseDate": "0001-01-01"
+}
+
+<> 2024-10-23T124245.500.txt
+
+###
+
+GET http://localhost:5021/games
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-23T124239.200.json
+
+###
+

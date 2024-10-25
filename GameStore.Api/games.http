@@ -1,0 +1,34 @@
+﻿GET http://localhost:5021/games
+
+###
+
+GET http://localhost:5021/games/3
+
+###
+
+POST http://localhost:5021/games
+Content-Type: application/json
+
+{
+  "name": "Street Figher II",
+  "genreId": 1,
+  "price": 9.99,
+  "releaseDate": "1992-07-15"
+}
+
+###
+
+PUT http://localhost:5021/games/3
+Content-Type: application/json
+
+
+{
+  "name": "Street Figher II Turbo",
+  "genreId": 1,
+  "price": 29.99,
+  "releaseDate": "1991-02-01"
+}
+
+###
+
+DELETE http://localhost:5021/games/4

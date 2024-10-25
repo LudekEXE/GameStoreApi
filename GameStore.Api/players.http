@@ -1,0 +1,20 @@
+﻿GET localhost:5021/players
+
+###
+
+GET localhost:5021/players/5
+
+###
+
+POST localhost:5021/players
+Content-Type: application/json
+
+{
+  "email" : "emial6@gmail.com",
+  "nick" : "Nickname5",
+  "password" : "sdhiuashd"
+}
+
+###
+
+DELETE localhost:5021/players/3

@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "name": "Minecraft",
+  "genreId": 5,
+  "genre": {
+    "id": 5,
+    "name": "Kids and Family"
+  },
+  "price": 19.99,
+  "releaseDate": "0001-01-01"
+}

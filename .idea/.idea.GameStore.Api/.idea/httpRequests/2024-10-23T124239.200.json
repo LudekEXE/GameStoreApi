@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Street Figher II",
+    "genre": "Fighing",
+    "price": 19.99,
+    "releaseDate": "1992-07-15"
+  },
+  {
+    "id": 2,
+    "name": "Final Fantasy XIV",
+    "genre": "Roleplaying",
+    "price": 59.99,
+    "releaseDate": "2010-09-30"
+  },
+  {
+    "id": 3,
+    "name": "FIFA 23",
+    "genre": "Sports",
+    "price": 69.99,
+    "releaseDate": "2022-09-27"
+  }
+]

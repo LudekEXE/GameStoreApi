@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Fighting"
+  },
+  {
+    "id": 2,
+    "name": "RolePlaying"
+  },
+  {
+    "id": 3,
+    "name": "Sports"
+  },
+  {
+    "id": 4,
+    "name": "Racing"
+  },
+  {
+    "id": 5,
+    "name": "Kids and Family"
+  }
+]
